@@ -1,0 +1,23 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 100px);
+    
+
+}
+
+.content{
+    padding-top:10px ;
+}
+
+mat-form-field{
+width: 100%;
+}
+
+.action{
+    
+    padding: 0px 25px 20px;
+    button{
+        flex:1
+    };
+}

@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "Name": "Popescu Ion",
+      "Locatie": "Berlin",
+      "Chooseadate": "2023-12-31T22:00:00.000Z",
+      "Oradeintrare": "111",
+      "Oradeiesire": "1111",
+      "Pause": "111",
+      "OrepeZi": "1111",
+      "Gesamtstunden": "1111",
+      "id": 1
+    },
+    {
+      "Name": "222",
+      "Locatie": "22",
+      "Chooseadate": "2024-01-10T22:00:00.000Z",
+      "Oradeintrare": "22",
+      "Oradeiesire": "22",
+      "Pause": "22",
+      "OrepeZi": "22",
+      "Gesamtstunden": "22",
+      "id": 2
+    },
+    {
+      "Name": "33",
+      "Locatie": "33",
+      "Chooseadate": "2024-02-01T22:00:00.000Z",
+      "Oradeintrare": "333",
+      "Oradeiesire": "33",
+      "Pause": "33",
+      "OrepeZi": "33",
+      "Gesamtstunden": "33",
+      "id": 3
+    },
+    {
+      "Name": "popescui",
+      "Locatie": "",
+      "Chooseadate": "",
+      "Oradeintrare": "",
+      "Oradeiesire": "",
+      "Pause": "",
+      "OrepeZi": "",
+      "Gesamtstunden": "",
+      "id": 4
+    },
+    {
+      "Name": "qw",
+      "Locatie": "qwqwe",
+      "Chooseadate": "2024-01-04T22:00:00.000Z",
+      "Oradeintrare": "11",
+      "Oradeiesire": "11",
+      "Pause": "11",
+      "OrepeZi": "11",
+      "Gesamtstunden": "11",
+      "id": 5
+    },
+    {
+      "Name": "111",
+      "Locatie": "11",
+      "Chooseadate": "2000-12-31T22:00:00.000Z",
+      "Oradeintrare": "11",
+      "Oradeiesire": "11",
+      "Pause": "11",
+      "OrepeZi": "1",
+      "Gesamtstunden": "1",
+      "id": 6
+    },
+    {
+      "Name": " 111",
+      "Locatie": "",
+      "Chooseadate": "",
+      "Oradeintrare": "",
+      "Oradeiesire": "",
+      "Pause": "",
+      "OrepeZi": "",
+      "Gesamtstunden": "",
+      "id": 7
+    },
+    {
+      "Name": "qq",
+      "Locatie": "qq",
+      "Chooseadate": "2024-01-03T22:00:00.000Z",
+      "Oradeintrare": "",
+      "Oradeiesire": "",
+      "Pause": "",
+      "OrepeZi": "",
+      "Gesamtstunden": "",
+      "id": 8
+    }
+  ]
+}

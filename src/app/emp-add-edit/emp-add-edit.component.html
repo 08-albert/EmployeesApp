@@ -1,0 +1,60 @@
+<div mat-dialog-title>
+    <h1>Employee Info</h1>
+</div>
+<form [formGroup]="empForm"(ngSubmit)="onFormSubmit()">
+<div mat-dialog-title class="content">
+  <div class="row">
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" placeholder="Ex. Popescu Ion" formControlName="Name">
+        <td mat-cell *matCellDef="let row"> {{row.Name| uppercase}} </td>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Locatie</mat-label>
+        <input matInput formControlName="Locatie">
+        <td mat-cell *matCellDef="let row"> {{row.Locatie | uppercase}} </td>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Selecteaza Data</mat-label>
+        <input matInput [matDatepicker]="picker"formControlName="Chooseadate">
+         <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label for="time-in">Ora de intrare </mat-label>
+        <input matInput formControlName="Oradeintrare">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label for="time-out">Ora de iesire</mat-label>
+        <input type="text" id="time-out" matInput formControlName="Oradeiesire" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Pause(h)</mat-label>
+        <input matInput formControlName="Pause">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Ore pe Zi</mat-label>
+        <input matInput formControlName="OrepeZi">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Total Ore Lucrate</mat-label>
+        <input matInput formControlName="Gesamtstunden">
+        <td mat-cell *matCellDef="let row"> {{row.Gesamtstunden}} </td>
+      </mat-form-field>
+
+      
+  </div>
+</div>
+<div mat-dialog-actions class="action">
+    <button mat-raised-button type="button" [mat-dialog-close]="false" >Cancel</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button>
+</div>
+</form>
